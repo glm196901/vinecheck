@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-alpha.6/css/bootstrap.css">
+    <style>
+        .left{
+            float: left;
+        }
+        .list-left{
+            list-style: none;
+            margin-left: -20px;
+            margin-top: 20px;
+            line-height: 60px;
+            font-size: 16px;
+            width: 129px;
+            height: 566px;
+            background-color: rgba(0,0,0,.04);
+        }
+        .right{
+            /*list-style: none;*/
+            margin-left: 80px;
+
+        }
+        .list-right li{
+            list-style: none;
+            float: left;
+            height: 90px;
+            width: 128px;
+            margin: 8px;
+            border: 1px solid rgba(0,0,0,.05) ;
+            border-radius: 5px;
+        }
+        .list-right li .select1 ,.select2,.select3,.select4,.select5,.select6,
+        .select7,.select8,.select9,.select10,.select11,.select12{
+            height: 25px;
+            width:25px;
+            margin-top: 0 ;
+            position: absolute;
+            display: none;
+        }
+        .list-right li .unselect1 ,.unselect2,.unselect3,.unselect4,.unselect5,.unselect6,
+        .unselect7,.unselect8,.unselect9,.unselect10,.unselect11,.unselect12{
+            height: 25px;
+            width:25px;
+            margin-top: 0 ;
+
+            /*display: none;*/
+        }
+        .list-right li .explain{
+            height: 18px;
+            width: 18px;
+            float: right;
+            margin: 6px;
+        }
+        .list-right li .icon{
+            width: 65px;
+            height: 63px;
+            display: block;
+            margin: -27px 25%;
+        }
+        .word{
+            margin: 25px auto;
+            vertical-align: bottom;
+            text-align: center;
+            font-size: 14px;
+            color: rgba(0,0,0,.4);
+        }
+        footer{
+            height: 70px;
+            width:100%;
+            background: #fff;
+            position: fixed;
+            bottom: 0;
+        }
+        .footer-left{
+            width: 100px;
+            display: inline-block;
+            float: left;
+            margin-left: 30px;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+<div style="margin: 0 auto ;">
+    <header>
+        <h3 style="; text-align: center ; color:rgba(0,0,0,.7) ;margin-top: 10px">选择调查套餐</h3>
+        <p style="padding: 5px"></p>
+        <img style="margin: 0 auto ;display: block ;width: 260px " src="./images/step2.png" alt="">
+    </header>
+    <section>
+        <div style="border: 1px solid rgba(0,0,0,.05) ; margin-top: 15px"></div>
+        <div class="left">
+            <p style="
+            margin-left: 20px;
+            margin-top: 20px;
+            line-height: 40px;
+           font-size: 16px;">自定义</p>
+            <ul class="list-left">
+                <li>职场新手</li>
+                <li>中间骨干</li>
+                <li>专家</li>
+                <li style="margin: 0;line-height: 20px">高管&合
+                    <p>伙人</p></li>
+                <li ><div style="background-color: rgba(0,0,0,.05) ; width: 107px ;margin-left: -18px">自定义</div></li>
+                <li>自定义1</li>
+            </ul>
+        </div>
+        <div class="right">
+            <ul class="list-right">
+                <li>
+                    <img class="select1"  src="images/seletct.png" alt="">
+                    <img class="unselect1" src="images/unseletct.png"  alt="">
+                    <img class="explain" src="images/explain.png" alt="">
+                    <img class="icon"  src="images/11.png" alt="">
+                    <div class="word">身份验证(带照片)</div>
+                </li>
+                <li>
+                    <img class="select2" src="images/seletct.png" alt="">
+                    <img class="unselect2" src="images/unseletct.png"  alt="">
+                    <img class="explain" src="images/explain.png" alt="">
+                    <img class="icon"  src="images/10.png" alt="">
+                    <div class="word">国内最高学历验证</div>
+                </li>
+                <li>
+                    <img class="select3" src="images/seletct.png" alt="">
+                    <img class="unselect3" src="images/unseletct.png"  alt="">
+                    <img class="explain" src="images/explain.png" alt="">
+                    <img class="icon"  src="images/9.png" alt="">
+                    <div class="word">国际教育背景</div>
+                </li>
+                <li>
+                    <img class="select4" src="images/seletct.png" alt="">
+                    <img class="unselect4" src="images/unseletct.png" alt="">
+                    <img class="explain" src="images/explain.png" alt="">
+                    <img class="icon"  src="images/8.png" alt="">
+                    <div class="word">驾驶证验证</div>
+                </li>
+                <li>
+
+                    <img class="select5" src="images/seletct.png" alt="">
+                    <img class="unselect5" src="images/unseletct.png"  alt="">
+                    <img class="explain" src="images/explain.png" alt="">
+                    <img class="icon"  src="images/1.png" alt="">
+                    <div class="word">驾驶证违规验证</div>
+                </li>
+                <li>
+
+                    <img class="select6" src="images/seletct.png" alt="">
+                    <img class="unselect6" src="images/unseletct.png" alt="">
+                    <img class="explain" src="images/explain.png" alt="">
+                    <img class="icon"  src="images/6.png" alt="">
+                    <div class="word">法院诉讼记录</div>
+                </li>
+                <li>
+
+                    <img class="select7" src="images/seletct.png" alt="">
+                    <img class="unselect7" src="images/unseletct.png" alt="">
+                    <img class="explain" src="images/explain.png" alt="">
+                    <img class="icon"  src="images/7.png" alt="">
+                    <div class="word">法院失信记录</div>
+                </li>
+                <li>
+                    <img class="select8" src="images/seletct.png" alt="">
+                    <img class="unselect8" src="images/unseletct.png" alt="">
+                    <img class="explain" src="images/explain.png" alt="">
+                    <img class="icon"  src="images/13.png" alt="">
+                    <div class="word">金融违规记录</div>
+                </li>
+                <li>
+                    <img class="select9" src="images/seletct.png" alt="">
+                    <img class="unselect9" src="images/unseletct.png"  alt="">
+                    <img class="explain" src="images/explain.png" alt="">
+                    <img class="icon"  src="images/12.png" alt="">
+                    <div class="word">犯罪记录</div>
+                </li>
+                <li>
+
+                    <img class="select10" src="images/seletct.png" alt="">
+                    <img class="unselect10" src="images/unseletct.png"  alt="">
+                    <img class="explain" src="images/explain.png" alt="">
+                    <img class="icon"  src="images/4.png" alt="">
+                    <div class="word">大数据验证</div>
+                </li>
+                <li>
+                    <img class="select11" src="images/seletct.png" alt="">
+                    <img class="unselect11"  src="images/unseletct.png"  alt="">
+                    <img class="explain" src="images/explain.png" alt="">
+                    <img class="icon"  src="images/2.png" alt="">
+                    <div class="word">国际工作经历验证</div>
+                </li>
+                <li>
+
+                    <img class="select12" src="images/seletct.png" alt="">
+                    <img class="unselect12" src="images/unseletct.png"  alt="">
+                    <img class="explain" src="images/explain.png" alt="">
+                    <img class="icon"  src="images/5.png" alt="">
+                    <img src="" alt="">
+                    <div class="word">经济风险验证</div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <span class="footer-left">暂不支付</span>
+        <span class="footer-right">
+            <a class="btn btn-info" href="step3.html" role="button" style=" ;width: 260px ; margin-right: 20px; margin-top: 20px;
+            border-radius: 25px ;display: inline-block; float: right">付款480元</a>
+        </span>
+    </footer>
+</div>
+<script  src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script >
+    $(document).ready(()=>{
+            $('.unselect1').click(()=>{
+              $('.select1').css('display','block')
+
+            });
+            $('.select1').click(()=>{
+              $('.select1').css('display','none')
+                });
+
+            $('.unselect2').click(()=>{
+              $('.select2').css('display','block')
+                });
+            $('.select2').click(()=>{
+              $('.select2').css('display','none');
+                });
+
+			$('.unselect3').click(()=>{
+				$('.select3').css('display','block')
+			});
+			$('.select3').click(()=>{
+              $('.select3').css('display','none');
+			});
+
+			$('.unselect4').click(()=>{
+              $('.select4').css('display','block')
+			});
+			$('.select4').click(()=>{
+              $('.select4').css('display','none');
+			});
+
+			$('.unselect5').click(()=>{
+              $('.select5').css('display','block')
+			});
+			$('.select5').click(()=>{
+				$('.select5').css('display','none');
+
+			});
+			$('.unselect6').click(()=>{
+				$('.select6').css('display','block')
+			});
+			$('.select6').click(()=>{
+              $('.select6').css('display','none');
+
+			});
+			$('.unselect7').click(()=>{
+				$('.select7').css('display','block')
+			});
+			$('.select7').click(()=>{
+				$('.select7').css('display','none');
+			});
+			$('.unselect8').click(()=>{
+				$('.select8').css('display','block')
+			});
+			$('.select8').click(()=>{
+				$('.select8').css('display','none');
+			});
+
+			$('.unselect9').click(()=>{
+				$('.select9').css('display','block')
+			});
+			$('.select9').click(()=>{
+				$('.select9').css('display','none');
+			});
+
+			$('.unselect10').click(()=>{
+              $('.select10').css('display','block')
+			});
+			$('.select10').click(()=>{
+              $('.select10').css('display','none');
+			});
+
+			$('.unselect11').click(()=>{
+              $('.select11').css('display','block')
+			});
+			$('.select11').click(()=>{
+              $('.select11').css('display','none');
+			});
+			$('.unselect12').click(()=>{
+              $('.select12').css('display','block')
+			});
+			$('.select12').click(()=>{
+				$('.select12').css('display','none');
+			})
+    })
+</script>
+</body>
+</html>
