@@ -1,0 +1,50 @@
+.qa-hdr-title {
+    font-size: 35px;
+    color: #4a4a4a;
+    text-align: center;
+}
+.mt66 {
+    margin-top: 55px;
+}
+
+.mt60 {
+    margin-top: 60px;
+}
+
+.mt40 {
+    margin-top: 40px;
+}
+
+.qa-title {
+    margin-top: 50px;
+    font-size: 24px;
+    color: #4a4a4a;
+}
+
+.qa-content {
+    display: block;
+    color: #9b9b9b;
+    font-size: 18px;
+    margin-top: 40px;
+    line-height: 1.8em;
+}
+
+.qanda_item .marker {
+    display: block;
+    width: 33px;
+    border-bottom: solid 6px #4990e2;
+}
+
+.qanda_item .title {
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 23px;
+}
+
+.qanda_item .content {
+    font-size: 16px;
+    color: #606060;
+    line-height: 2em;
+    margin-top: 22px;
+    margin-bottom: 60px;
+}
